@@ -11,8 +11,13 @@ Object-oriented game framework in JavaScript
 
 ## Screenshots
 
-![breakout](screenshots/breakout.gif)
+<img src="screenshots/breakout.gif" width="400px" />
 
-![airplane](screenshots/airplane.gif)
+***
 
-![breakout](screenshots/flappy-bird.gif)
+<img src="screenshots/airplane.gif" width="400px" />
+
+***
+
+<img src="screenshots/flappy-bird.gif" width="400px" />
+
