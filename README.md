@@ -5,7 +5,7 @@ Object-oriented game framework in JavaScript
 
 - Real time game config changes
 - Particle System
-- Scene management (title scene, main scene, end scene)
+- Scene management (title scene, main scene and end scene)
 - Sprite management
 - Key-binding management
 
