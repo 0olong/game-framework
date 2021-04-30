@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Flappy Bird</title>
+        <style media="screen">
+            #game-container, #controls-container {
+                display: flex;
+                justify-content: center;
+            }
+            canvas {
+                border: 1px black solid;
+            }
+        </style>
+        <!-- 框架相关文件 -->
+        <script src='framework/utils.js'></script>
+        <script src='framework/game.js'></script>
+        <script src='framework/scene_framework.js'></script>
+        <script src='framework/image_framework.js'></script>
+        <script src='framework/label.js'></script>
+        <script src='framework/animation.js'></script>
+        <!-- 场景文件 -->
+        <script src='scene/main/scene.js'></script>
+        <script src='scene/main/pipe.js'></script>
+        <!-- 结束和标题场景 -->
+        <script src='scene/end/scene_end.js'></script>
+        <script src='scene/title/scene_title.js'></script>
+        <!-- 配置数据 -->
+        <script src='config.js'></script>
+    </head>
+    <body>
+        <div id="game-container">
+            <canvas id="id-canvas" width="288" height="512"></canvas>
+        </div>
+        <hr>
+        <div id="controls-container">
+<!--            <input id=id-input-speed type="range" min="2" value="3"><label> FPS</label>-->
+            <div class="controls"></div>
+        </div>
+
+        <script src=main.js></script>
+    </body>
+</html>
